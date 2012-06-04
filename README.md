@@ -23,8 +23,6 @@ Concentrates on replicating the Windows 8 Metro tiles interface.
 ##Issues
 -IE compatibility issues
 
--Try to scroll past final section and then try to scroll back - wont allow you
-
 ##Not Done Yet
 -liveTile.css to less
 
