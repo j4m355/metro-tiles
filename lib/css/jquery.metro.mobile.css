@@ -1,0 +1,49 @@
+﻿body, html, form {margin:0; overflow:hidden; font-family:"Segoe UI", "Arial"; font-size:12pt; }
+.ui-page {position:relative; overflow:hidden;}
+
+h1 {font-weight:normal; font-size:60pt; margin:0;}
+h2 {font-weight:normal; font-size:35pt; margin:0;}
+h3 {font-weight:normal; font-size:20pt; margin:0;}
+.ui-app-title {text-transform:uppercase; font-weight:bold; padding:5px 0;}
+
+/*ui-switch*/
+.ui-switch {position:relative; cursor:pointer; display:inline-block; vertical-align:top;}
+.ui-switch-box { margin:4px; border:solid 2px;}
+.ui-switch-box-inner {width:40px; height:10px; margin:2px;}
+.ui-switch-handle {position:absolute; width:10px; height:20px; top:1px; left:0; border:solid 2px;}
+.ui-switch-title {display:inline-block; width:40px; text-align:left;}
+
+/*ui-button*/
+.ui-button {border:solid 2px; font-size:14pt; display:block; text-align:center; padding:1px 5px; text-decoration:none;}
+.ui-button:active {background:#000;color:#fff;border-color:#000;}
+.ui-theme-dark .ui-button:active {background:#fff; color:#000;border-color:#fff;}
+
+/*ui-textbox*/
+.ui-textbox {border:solid 2px #aaa; background:#aaa; font-size:14pt; color:#111; padding:1px 5px; text-decoration:none; padding:2px 5px;}
+.ui-theme-dark .ui-textbox:focus {background:#000; color:#fff; border-color:#fff;}
+.ui-theme-light .ui-textbox:focus {background:#fff;color:#000; border-color:#000;}
+
+/*ui-application-bar*/
+.ui-app-bar { position:absolute; bottom:0; width:100%; background:#222}
+.ui-theme-light .ui-app-bar { background:#ddd;}
+.ui-app-bar .ui-app-bar-buttons {text-align:center; padding:5px 0; font-size:0; height:28px; background:url(../../img/threedots.gif) no-repeat right center;}
+.ui-app-bar .ui-app-bar-buttons a {display:inline-block; width:28px; padding:0 10px; border:0;}
+.ui-app-bar .ui-app-bar-buttons a img {width:100%;}
+.ui-app-bar .ui-app-bar-inside {display:none;}
+.ui-app-bar .ui-app-bar-titles {text-align:center; font-size:7pt; margin-top:-3px;}
+.ui-app-bar .ui-app-bar-titles span {display:inline-block; width:48px; overflow:hidden; white-space:nowrap; text-align:center;}
+.ui-app-bar .ui-app-bar-menu {font-size:14pt; height:195px; overflow-y:hidden; display:none;}
+.ui-app-bar .ui-app-bar-inside .ui-app-bar-menu {display:block;}
+.ui-app-bar .ui-app-bar-menu ul {margin:0; padding:0;}
+.ui-app-bar .ui-app-bar-menu ul li {list-style:none;}
+.ui-app-bar .ui-app-bar-menu ul li a {display:block; padding:5px 10px; text-decoration:none;}
+
+
+/*=== FROM JQUERY MOBILE*/
+/* loading screen */
+.ui-loading .ui-mobile-viewport { overflow: hidden !important; }
+.ui-loading .ui-loader { display: block; }
+.ui-loading .ui-page { overflow: hidden;  }
+.ui-loader { display: none; position: absolute; opacity: .85; z-index: 100; left: 50%; width: 200px; margin-left: -130px; margin-top: -35px; padding: 10px 30px; }
+.ui-loader h1 { font-size: 15px; text-align: center; }
+.ui-loader .ui-icon { position: static; display: block; opacity: .9; margin: 0 auto; width: 35px; height: 35px; background-color: transparent; }
