@@ -1,0 +1,47 @@
+/*
+ * Metro UI CSS v 1.0.1
+ * Copyright 2012 Sergey Pimenov
+ * Licensed under the MIT Lilcense
+ */
+
+// CSS Reset
+@import "reset.less";
+
+@import "variables.less";
+@import "typography.less";
+@import "routines.less";
+
+@import "tiles.less";
+@import "notices.less";
+@import "images.less";
+@import "buttons.less";
+@import "form.less";
+@import "themes.less";
+
+
+.metro {
+    background: transparent;
+    width: 940px;
+    overflow: hidden;
+
+    * {
+        color: @white;
+    }
+
+    hr {
+        color: #fff;
+        background-color: #fff;
+    }
+
+
+    .metro-replies {
+        .metro-reply {
+            background: @darken;
+
+            * {
+                color: @white;
+            }
+        }
+    }
+}
+ 

@@ -1,0 +1,204 @@
+/*
+ * Metro UI CSS v 1.0.1
+ * Copyright 2012 Sergey Pimenov
+ * Licensed under the MIT Lilcense
+ */
+
+
+
+.metro {
+    .metro-sections {
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        width: 10000px;
+
+        .metro-section {
+            float: left;
+            margin-right: 75px;
+            height: auto;
+            width: 810px;
+            position: relative;
+
+            
+            .metro-section-small {
+                width: 320px;
+            }
+
+            .tile:hover {
+                outline: 3px #225a68 solid !important;
+            }
+
+            .tile {
+                display: block;
+                background-color: @blue;
+                width: @tileSmall;
+                height: @tileSmall;
+                color: #fff;
+                margin: @tileMargin;
+                float: left;
+                //box-shadow: inset 0px 0px 1px #FFFFCC;
+                position: relative;
+                cursor: pointer;
+                overflow: hidden;
+                text-decoration: none;
+                padding-bottom: 1px;
+
+                * {font-family: @baseFontFamily;}
+
+                .tile-icon-large {
+                    margin-top: 20px;
+                    margin-left: 0px;
+                    display: table-cell;
+                    vertical-align:middle !important;
+                    text-align: center;
+                    width: 150px;
+                    padding-top: 20px;
+
+                    img {
+                        width: 96px;
+                        height: 96px;
+                    }
+                }
+                .tile-icon-cover {
+                    margin-top: 20px;
+                    margin-left: 0px;
+                    display: table-cell;
+                    vertical-align:middle !important;
+                    text-align: center;
+                    width: 150px;
+                    padding-top: 30px;
+
+                    img {
+                        max-width: 90px;
+                        height: 90px;
+                    }
+                }
+                .tile-icon {
+                    position: absolute;
+                    bottom: 10px;
+                    left: 20px;
+                    width: 32px;
+                    height: 32px;
+                }
+                .tile-label {
+                    position: absolute;
+                    bottom: 10px;
+                    left: 20px;
+                    font-size: 14px;
+                    color: #fff;
+                }
+                .tile-caption {
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    width: 130px;
+                    padding: 2px 10px;
+                    border-bottom: 1px #ff4500 solid;
+                    background: #fff;
+                    font-size: 14px;
+                    color: #000;
+                    font-size: 10px;
+                    text-align: right;
+                }
+                .tile-header {
+                    font-size: 19px;
+                    color: #7ac479;
+                    text-align: left;
+                    margin: 20px;
+                }
+                .tile-counter {
+                    position: absolute;
+                    right: 20px;
+                    bottom: 10px;
+                    font-size: 14px;
+                    font-weight: normal;
+                }
+                .tile-text {
+                    text-align: left;
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    font-size: 12px;
+                }
+
+                .tile-image {
+                    padding: 0px;
+
+                    img {
+                        min-height: 100%;
+                        min-width: 100%;
+                    }
+                }
+
+                .tile-content-main {
+                    height: 150px;
+                    position: relative;
+                    overflow: hidden;
+                }
+                .tile-content-sub {
+                    //display: none;
+                    position: relative;
+                    margin: 1px;
+                    height: 50px;
+                    max-height: 148px;
+                    padding: 2px 5px;
+                    overflow: hidden;
+                    box-shadow-bottom: inset 0px 0px 3px #fff;
+                    //opacity: .1;
+                }
+
+            }
+
+            .tile.multi-content{}
+
+            .tile.tile-double {
+                width: @tileLarge;
+
+                .tile-icon-large {
+                    margin-top: 20px;
+                    margin-left: 107px;
+
+                    img {
+                        width: 96px;
+                        height: 96px;
+                    }
+                }
+                .tile-icon-cover, .tile-icon-large {
+                    width: @tileLarge;
+                }
+            }
+        }
+    }
+}
+
+
+.live-tile, .list-tile
+{
+    color:#fff;
+    float:left;
+    height: 180px;
+    margin:15px;
+    overflow:hidden;
+    position:relative;
+    width: 180px;
+}
+.live-tile.two-wide, .list-tile.two-wide { width:390px; }
+.live-tile.two-tall, .list-tile.two-tall { height:390px; }
+.live-tile img, .list-tile img { border:none; }
+.live-tile.me>.slide-back>a.metroBig { position:absolute; left:0; bottom:0; padding: 0 0 12px 12px; text-decoration:none; }
+.live-tile a:link, .live-tile a:visited { color:#fff; text-decoration:underline; }
+.live-tile a:hover { color:#fff; text-decoration:none; }
+.live-tile p { font-size:13px; line-height: 16px; padding:10px; }
+.live-tile .tile-title, .list-tile .tile-title { position:absolute; bottom:0px; font-size:12px; left:0px; width:100%; padding:0 0 6px 6px; z-index:30; }
+.live-tile a.tile-title, .list-tile a.tile-title { text-decoration:none; }
+.live-tile.me>.metroBig { padding-top:45px; }
+.live-tile>div,.list-tile>div
+{
+    top:0px;
+    left:0px;
+    margin:0px;
+    height:100%;
+    width:100%;
+    position:absolute;
+    z-index:20;
+}
