@@ -1,5 +1,6 @@
 <html>
 <head>
+    <title>j4m355/metro-tiles</title>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
     <link rel="Stylesheet" type="text/css" href="lib/css/jquery.metro.mobile.css" />
@@ -24,7 +25,6 @@
     <script type="text/javascript" src="lib/scripts/jquery.mousewheel.js"></script>
     <script type="text/javascript" src="lib/scripts/jquery.scrollTo.js"></script>
     <script type="text/javascript" src="lib/scripts/jquery.wipetouch.js"></script>
-
 </head>
 <body style="background-color: black">
     <div class="container">
@@ -111,12 +111,27 @@
                         </div>
                         <span class="tile-label">Acer Utilities</span>
                     </div>
-                    <div class="tile bg-color-blueDark">
-                        <div class="tile-icon-large">
-                            <img src="img/Amazon.png" />
-                        </div>
-                        <span class="tile-label">Amazon</span>
-                    </div>
+                   <div class="mango list-tile tile">
+        <span class="tile-title">flip list (figure 2c)</span>
+        <ul class="flip-list fourTiles" data-mode="flip-list" data-delay="3000">
+            <li>
+                <div><img src="img/1t.gif"  alt="1" /></div>
+                <div><img src="img/1tw.gif" alt="1" /></div>
+            </li>
+            <li>
+                <div><img src="img/2t.gif"  alt="2" /></div>
+                <div><img src="img/2tw.gif" alt="2" /></div>
+            </li>
+            <li>
+                <div><img src="img/3t.gif"  alt="3" /></div>
+                <div><img src="img/3tw.gif" alt="3" /></div>
+            </li>
+            <li data-direction="horizontal">
+                <div><img src="img/4t.gif"  alt="4" /></div>
+                <div><img src="img/4tw.gif" alt="4" /></div>
+            </li>
+        </ul>
+    </div>
                 </div>
                 <div class="metro-section">
                     <h1>Section 2</h1>

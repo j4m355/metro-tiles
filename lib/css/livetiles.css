@@ -3,11 +3,11 @@
 {
 	color:#fff;
 	float:left;
-	height: 180px;
+	height: 150px;
 	margin:15px;
 	overflow:hidden;
 	position:relative;
-	width: 180px;
+	width: 150px;
 }
 .live-tile.two-wide, .list-tile.two-wide { width:390px; }
 .live-tile.two-tall, .list-tile.two-tall { height:390px; }
@@ -279,8 +279,8 @@ img.full , a.full
 .flip-list.fourTiles>li,.flip-list.fourTiles>li>div,.flip-list.fourTiles>li>div>img,.flip-list.fourTiles>li>div>a 
 { 
 	border:none; padding:0; margin:0; 
-	height:90px;
-	width:90px;
+	height:75px;
+	width:75px;
 }
 .fourTiles1  { background-position: 0px 0px; }
 .fourTiles2  { background-position: -90px 0px; }
