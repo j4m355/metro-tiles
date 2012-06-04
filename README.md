@@ -26,6 +26,12 @@ Concentrates on replicating the Windows 8 Metro tiles interface.
 ##Not Done Yet
 -liveTile.css to less
 
+-Side bar pull in
+
+-Transition on button click
+
+-Click white space in metro-section to scrollTo
+
 
 ##Demo
 http://www.j4m355.com/metro-tiles/
