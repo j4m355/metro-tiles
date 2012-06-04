@@ -28,8 +28,6 @@ Concentrates on replicating the Windows 8 Metro tiles interface.
 ##Not Done Yet
 -liveTile.css to less
 
--liveTile.css to be more compatible, currently not everything works
-
 -App bar 'scroll up' implementation
 
 ##Demo
