@@ -7,7 +7,7 @@ Concentrates on replicating the Windows 8 Metro tiles interface.
 	olton/Metro-UI-CSS
 
 ##Adds
--Gesture swipe between screens 
+-Swipe gesture between screens 
 
 -Arrow key between screens
 
