@@ -38,6 +38,36 @@ h3 {font-weight:normal; font-size:20pt; margin:0;}
 .ui-app-bar .ui-app-bar-menu ul li {list-style:none;}
 .ui-app-bar .ui-app-bar-menu ul li a {display:block; padding:5px 10px; text-decoration:none;}
 
+/*ui-application-bar*/
+.ui-app-bar-side-left { position:absolute; left:0; height:100%; background:#222}
+.ui-theme-light-side-left .ui-app-bar-side-left { background:#ddd;}
+.ui-app-bar-side-left .ui-app-bar-buttons-side-left {text-align:center; padding:5px 0; font-size:0; height:28px; background:url(../../img/threedots.gif) no-repeat right center;}
+.ui-app-bar-side-left .ui-app-bar-buttons-side-left a {display:inline-block; width:28px; padding:0 10px; border:0;}
+.ui-app-bar-side-left .ui-app-bar-buttons-side-left a img {width:100%;}
+.ui-app-bar-side-left .ui-app-bar-inside-side-left {display:none;}
+.ui-app-bar-side-left .ui-app-bar-titles-side-left {text-align:center; font-size:7pt; margin-top:-3px;}
+.ui-app-bar-side-left .ui-app-bar-titles-side-left span {display:inline-block; width:48px; overflow:hidden; white-space:nowrap; text-align:center;}
+.ui-app-bar-side-left .ui-app-bar-menu-side-left {font-size:14pt; height:195px; overflow-y:hidden; display:none;}
+.ui-app-bar-side-left .ui-app-bar-inside-side-left .ui-app-bar-menu-side-left {display:block;}
+.ui-app-bar-side-left .ui-app-bar-menu-side-left ul {margin:0; padding:0;}
+.ui-app-bar-side-left .ui-app-bar-menu-side-left ul li {list-style:none;}
+.ui-app-bar-side-left .ui-app-bar-menu-side-left ul li a {display:block; padding:5px 10px; text-decoration:none;}
+
+/*ui-application-bar*/
+.ui-app-bar-side-right { position:absolute; bottom:0; width:100%; background:#222}
+.ui-theme-light-side-right .ui-app-bar-side-right { background:#ddd;}
+.ui-app-bar-side-right .ui-app-bar-buttons-side-right {text-align:center; padding:5px 0; font-size:0; height:28px; background:url(../../img/threedots.gif) no-repeat right center;}
+.ui-app-bar-side-right .ui-app-bar-buttons-side-right a {display:inline-block; width:28px; padding:0 10px; border:0;}
+.ui-app-bar-side-right .ui-app-bar-buttons-side-right a img {width:100%;}
+.ui-app-bar-side-right .ui-app-bar-inside-side-right {display:none;}
+.ui-app-bar-side-right .ui-app-bar-titles-side-right {text-align:center; font-size:7pt; margin-top:-3px;}
+.ui-app-bar-side-right .ui-app-bar-titles-side-right span {display:inline-block; width:48px; overflow:hidden; white-space:nowrap; text-align:center;}
+.ui-app-bar-side-right .ui-app-bar-menu-side-right {font-size:14pt; height:195px; overflow-y:hidden; display:none;}
+.ui-app-bar-side-right .ui-app-bar-inside-side-right .ui-app-bar-menu-side-right {display:block;}
+.ui-app-bar-side-right .ui-app-bar-menu-side-right ul {margin:0; padding:0;}
+.ui-app-bar-side-right .ui-app-bar-menu-side-right ul li {list-style:none;}
+.ui-app-bar-side-right .ui-app-bar-menu-side-right ul li a {display:block; padding:5px 10px; text-decoration:none;}
+
 
 /*=== FROM JQUERY MOBILE*/
 /* loading screen */
